@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Hero Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <header>
+      <h1>Hero Clone</h1>
+      <div id="player-stats"></div>
+    </header>
+
+    <main>
+      <section id="menu">
+        <button onclick="showScreen('missions')">Misje</button>
+        <button onclick="showScreen('fight')">Walka</button>
+        <button onclick="showScreen('shop')">Sklep</button>
+        <button onclick="showScreen('inventory')">Ekwipunek</button>
+        <button onclick="showScreen('profile')">Profil</button>
+      </section>
+
+      <section id="screen"></section>
+    </main>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
